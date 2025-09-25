@@ -1,45 +1,80 @@
-Bu, bir film başlığı arayarak film bilgisi bulmanıza yardımcı olan basit bir React tabanlı web uygulamasıdır. React'in temellerini ve React'te API kullanımını anlamak için mükemmel bir proje görevi görür.
+# React Film Platformu
 
-İçindekiler
-Özellikler
+Bu, **The Movie Database (TMDb)** API'sini kullanarak film bilgilerini bulmanıza, keşfetmenize ve kendi izleme listenizi oluşturmanıza olanak tanıyan, React tabanlı modern bir web uygulamasıdır. Bu proje, React'in temel ve ileri düzey konseptlerini (Hooks, Context API, Routing) ve harici bir API ile nasıl çalışılacağını anlamak için mükemmel bir örnektir.
 
-Kullanılan Teknolojiler
+## İçindekiler
 
-Başlarken
+- [Özellikler](#özellikler)
+- [Kullanılan Teknolojiler](#kullanılan-teknolojiler)
+- [Başlarken](#başlarken)
+  - [Ön Gereksinimler](#ön-gereksinimler)
+  - [Kurulum](#kurulum)
+- [Kullanım](#kullanım-)
+- [Katkıda Bulunma](#katkıda-bulunma-)
+- [Lisans](#lisans-)
 
-Ön Gereksinimler
+## Özellikler
 
-Kurulum
+- Popüler ve en yüksek puanlı filmleri listeleyin.
+- Filmleri başlığa göre anlık olarak arayın.
+- Filmlerin detaylı bilgilerini (konu, oyuncular, puan vb.) görüntüleyin.
+- Kullanıcıya özel "İzleme Listesi" (Watchlist) oluşturma ve yönetme.
+- Farklı sayfalar arasında hızlı geçiş sağlayan modern SPA (Tek Sayfa Uygulaması) mimarisi.
+- Mobil ve tablet gibi farklı cihazlarla uyumlu duyarlı tasarım.
 
-Kullanım
+## Kullanılan Teknolojiler
 
-Katkıda Bulunma
+- HTML5 & CSS3
+- JavaScript (ES6+)
+- **React.js** (Context API ve Hooks ile)
+- **React Router** (Sayfa yönlendirme için)
+- **The Movie Database (TMDb) API**
 
-Lisans
+## Başlarken
 
-Özellikler
-Filmleri başlığa göre arayın ve detaylı film bilgilerini alın.
+### Ön Gereksinimler
 
-Film verilerini almak için OMDB API'sini kullanır.
+Başlamadan önce, sisteminizde aşağıdakilerin kurulu olduğundan emin olun:
 
-Çeşitli cihazlarda sorunsuz bir kullanıcı deneyimi için duyarlı tasarım.
+- **Node.js** - [nodejs.org](https://nodejs.org/) adresinden indirin ve kurun.
+- **TMDb API Anahtarı** - [themoviedb.org](https://www.themoviedb.org/signup) adresinden ücretsiz bir hesap oluşturup API anahtarınızı alın.
 
-React'e ve React'te API kullanımına harika bir başlangıç.
+### Kurulum
 
-Kullanılan Teknolojiler
+1.  Depoyu (repository) yerel makinenize klonlayın:
+    ```bash
+    git clone [https://github.com/D-veloper/react-movie-app.git](https://github.com/D-veloper/react-movie-app.git)
+    ```
 
-HTML5
+2.  Proje dizinine gidin:
+    ```bash
+    cd react-movie-app
+    ```
 
-CSS3
+3.  Proje bağımlılıklarını kurun:
+    ```bash
+    npm install
+    ```
+4.  Projenin ana dizininde `.env` adında bir dosya oluşturun ve içine TMDb API anahtarınızı aşağıdaki gibi ekleyin:
+    ```
+    REACT_APP_API_KEY=anahtarınızı_buraya_yapıştırın
+    ```
 
-JavaScript
+5.  Geliştirme sunucusunu başlatın:
+    ```bash
+    npm start
+    ```
 
-React.js
+6.  Web tarayıcınızı açın ve uygulamayı görüntülemek için `http://localhost:3000` adresine gidin.
 
-OMDB API
+## Kullanım 📝
 
-Başlarken
-Ön Gereksinimler
-Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
+### Filmleri Keşfetme 🍿
 
-Node.js - nodejs.org adresinden Node.js'i indirin ve kurun.
+- **Ana sayfada** popüler filmlere göz atın.
+- **Navigasyon menüsünü** kullanarak "Popüler" veya "En Yüksek Puanlı" filmlerin olduğu sayfalara gidin.
+
+### Film Arama 🎥
+
+1.  Sayfanın üst kısmındaki **arama kutusuna** bulmak istediğiniz filmin adını yazmaya başlayın.
+2.  Uygulama, siz
