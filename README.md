@@ -77,4 +77,37 @@ Başlamadan önce, sisteminizde aşağıdakilerin kurulu olduğundan emin olun:
 ### Film Arama 🎥
 
 1.  Sayfanın üst kısmındaki **arama kutusuna** bulmak istediğiniz filmin adını yazmaya başlayın.
-2.  Uygulama, siz
+2.  Uygulama, siz yazdıkça arama sonuçlarını **anlık olarak** güncelleyecektir.
+
+### Film Detaylarını Görüntüleme 📽️
+
+- Herhangi bir film afişine tıklayarak o filmin konusunu, türlerini, oyuncu kadrosunu ve puanını içeren **detay sayfasına** gidin.
+
+### İzleme Listesi Oluşturma  watchlist 
+
+- Film kartlarındaki veya detay sayfasındaki **"Listeme Ekle"** ikonuna/butonuna tıklayarak filmi kişisel izleme listenize ekleyin.
+- Navigasyon menüsündeki **"İzleme Listem"** linkine tıklayarak listenizi görüntüleyin.
+
+## Katkıda Bulunma 🤝
+
+Katkılarınız projenin gelişimi için çok değerlidir! Eğer katkıda bulunmak isterseniz, lütfen aşağıdaki adımları izleyin:
+
+1.  **Depoyu GitHub'da Fork'layın.**
+2.  **Fork'ladığınız Depoyu Yerel Makinenize Klonlayın.**
+    ```bash
+    git clone [https://github.com/](https://github.com/)<kullanici-adiniz>/react-movie-app.git
+    ```
+3.  **Yeni Bir Branch Oluşturun.**
+    ```bash
+    git checkout -b ozellik/harika-yeni-ozellik
+    ```
+4.  **Değişikliklerinizi Yapın ve Anlamlı Mesajlarla Commit'leyin.**
+    ```bash
+    git commit -m "Özellik eklendi: Kullanıcıların filmlere puan verebilmesi sağlandı"
+    ```
+5.  **Değişikliklerinizi GitHub'daki Fork'unuza Push'layın.**
+    ```bash
+    git push origin ozellik/harika-yeni-ozellik
+    ```
+6.  **Ana Depoya Bir Pull Request Oluşturun.**
+    Değişikliklerinizi net bir şekilde açıklayarak bir pull request gönderin.
